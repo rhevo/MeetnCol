@@ -27,7 +27,7 @@ MeetnCol is a collaborative platform designed to facilitate communication, proje
 
 1. Clone the repository:
     ```sh
-    git clone https://github.com/yourusername/meetncol.git
+    git clone https://github.com/rhevo/meetncol.git
     cd meetncol
     ```
 

@@ -1,0 +1,36 @@
+-- Logs begin at Wed 2024-06-19 14:29:28 UTC, end at Thu 2024-07-25 00:14:57 UTC. --
+Jul 04 10:03:00 476776-web-02 systemd[1]: Started gunicorn daemon.
+Jul 04 10:03:00 476776-web-02 systemd[1145]: [0;1;31m[0;1;39m[0;1;31mgunicorn.service: Failed to determine user credentials: No such process[0m
+Jul 04 10:03:00 476776-web-02 systemd[1145]: [0;1;31m[0;1;39m[0;1;31mgunicorn.service: Failed at step USER spawning /path/to/your/project/venv/bin/gunicorn: No such process[0m
+Jul 04 10:03:00 476776-web-02 systemd[1]: [0;1;39m[0;1;31m[0;1;39mgunicorn.service: Main process exited, code=exited, status=217/USER[0m
+Jul 04 10:03:00 476776-web-02 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgunicorn.service: Failed with result 'exit-code'.[0m
+Jul 12 04:00:00 476776-web-02 systemd[1]: Started gunicorn daemon.
+Jul 12 04:00:00 476776-web-02 systemd[35056]: [0;1;31m[0;1;39m[0;1;31mgunicorn.service: Failed to determine user credentials: No such process[0m
+Jul 12 04:00:00 476776-web-02 systemd[35056]: [0;1;31m[0;1;39m[0;1;31mgunicorn.service: Failed at step USER spawning /path/to/your/project/venv/bin/gunicorn: No such process[0m
+Jul 12 04:00:00 476776-web-02 systemd[1]: [0;1;39m[0;1;31m[0;1;39mgunicorn.service: Main process exited, code=exited, status=217/USER[0m
+Jul 12 04:00:00 476776-web-02 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgunicorn.service: Failed with result 'exit-code'.[0m
+Jul 12 04:10:52 476776-web-02 systemd[1]: Started gunicorn daemon.
+Jul 12 04:10:52 476776-web-02 systemd[35135]: [0;1;31m[0;1;39m[0;1;31mgunicorn.service: Failed to execute command: No such file or directory[0m
+Jul 12 04:10:52 476776-web-02 systemd[35135]: [0;1;31m[0;1;39m[0;1;31mgunicorn.service: Failed at step EXEC spawning /home/ubuntu/Project/MeetnCol/venv/bin/gunicorn: No such file or directory[0m
+Jul 12 04:10:52 476776-web-02 systemd[1]: [0;1;39m[0;1;31m[0;1;39mgunicorn.service: Main process exited, code=exited, status=203/EXEC[0m
+Jul 12 04:10:52 476776-web-02 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgunicorn.service: Failed with result 'exit-code'.[0m
+Jul 12 04:14:59 476776-web-02 systemd[1]: Started gunicorn daemon.
+Jul 12 04:14:59 476776-web-02 gunicorn[35185]: [2024-07-12 04:14:59 +0000] [35185] [INFO] Starting gunicorn 22.0.0
+Jul 12 04:14:59 476776-web-02 gunicorn[35185]: [2024-07-12 04:14:59 +0000] [35185] [ERROR] Retrying in 1 second.
+Jul 12 04:15:00 476776-web-02 gunicorn[35185]: [2024-07-12 04:15:00 +0000] [35185] [ERROR] Retrying in 1 second.
+Jul 12 04:15:01 476776-web-02 gunicorn[35185]: [2024-07-12 04:15:01 +0000] [35185] [ERROR] Retrying in 1 second.
+Jul 12 04:15:02 476776-web-02 gunicorn[35185]: [2024-07-12 04:15:02 +0000] [35185] [ERROR] Retrying in 1 second.
+Jul 12 04:15:03 476776-web-02 gunicorn[35185]: [2024-07-12 04:15:03 +0000] [35185] [ERROR] Retrying in 1 second.
+Jul 12 04:15:04 476776-web-02 gunicorn[35185]: [2024-07-12 04:15:04 +0000] [35185] [ERROR] Can't connect to /home/ubuntu/Project/MeetnCol/dj_app.sock
+Jul 12 04:15:04 476776-web-02 systemd[1]: [0;1;39m[0;1;31m[0;1;39mgunicorn.service: Main process exited, code=exited, status=1/FAILURE[0m
+Jul 12 04:15:04 476776-web-02 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgunicorn.service: Failed with result 'exit-code'.[0m
+Jul 25 00:14:47 476776-web-02 systemd[1]: Started gunicorn daemon.
+Jul 25 00:14:49 476776-web-02 gunicorn[81806]: [2024-07-25 00:14:49 +0000] [81806] [INFO] Starting gunicorn 22.0.0
+Jul 25 00:14:49 476776-web-02 gunicorn[81806]: [2024-07-25 00:14:49 +0000] [81806] [ERROR] Retrying in 1 second.
+Jul 25 00:14:50 476776-web-02 gunicorn[81806]: [2024-07-25 00:14:50 +0000] [81806] [ERROR] Retrying in 1 second.
+Jul 25 00:14:51 476776-web-02 gunicorn[81806]: [2024-07-25 00:14:51 +0000] [81806] [ERROR] Retrying in 1 second.
+Jul 25 00:14:52 476776-web-02 gunicorn[81806]: [2024-07-25 00:14:52 +0000] [81806] [ERROR] Retrying in 1 second.
+Jul 25 00:14:53 476776-web-02 gunicorn[81806]: [2024-07-25 00:14:53 +0000] [81806] [ERROR] Retrying in 1 second.
+Jul 25 00:14:54 476776-web-02 gunicorn[81806]: [2024-07-25 00:14:54 +0000] [81806] [ERROR] Can't connect to /home/ubuntu/Project/MeetnCol/dj_app.sock
+Jul 25 00:14:54 476776-web-02 systemd[1]: [0;1;39m[0;1;31m[0;1;39mgunicorn.service: Main process exited, code=exited, status=1/FAILURE[0m
+Jul 25 00:14:54 476776-web-02 systemd[1]: [0;1;38;5;185m[0;1;39m[0;1;38;5;185mgunicorn.service: Failed with result 'exit-code'.[0m
